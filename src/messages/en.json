@@ -646,8 +646,8 @@
         {
           "heading": "6. Web analytics",
           "body": [
-            "To understand how our website is used and to improve it, we use the analytics service PostHog (PostHog Inc.). Data is stored on servers in the European Union, and PostHog acts as our processor under Art. 28 GDPR.",
-            "PostHog is configured on this website so that no cookies or other identifiers are stored on your device. It records which pages are viewed and basic technical information about the visit, such as the browser and device type. Browsers that send a Do Not Track signal are not recorded. The resulting statistics are pseudonymous and are not used to identify you.",
+            "To understand how our website is used and to improve it, we use Azure Application Insights, a service of Microsoft Ireland Operations Limited. The data is stored in a Microsoft data centre in Germany (region Germany West Central), and Microsoft acts as our processor under Art. 28 GDPR.",
+            "Application Insights is configured on this website so that no cookies, local storage or other identifiers are stored on your device. It records which pages are viewed and basic technical information about the visit, such as the browser, the device type and the approximate location (country and city) derived from your IP address. The IP address itself is not stored. Browsers that send a Do Not Track signal are not recorded. The resulting statistics are pseudonymous, are kept for 90 days and are not used to identify you.",
             "The legal basis is Art. 6 (1) (f) GDPR; our legitimate interest lies in the anonymous evaluation of how our website is used. You can object to this processing at any time (see section 8.2), for example by enabling Do Not Track in your browser."
           ]
         },
@@ -683,7 +683,7 @@
           ]
         }
       ],
-      "date": "24 October 2026"
+      "date": "29 October 2026"
     }
   },
   "notFound": {
