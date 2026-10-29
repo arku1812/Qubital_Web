@@ -82,7 +82,18 @@ function organizationJsonLd(description: string) {
           addressCountry: 'DE',
         },
         sameAs: [site.linkedin],
+        image: `${site.url}${ogImage.url}`,
         areaServed: ['Germany', 'Europe'],
+        knowsAbout: [
+          'Identity and Access Management (IAM)',
+          'Identity Governance and Administration (IGA)',
+          'Privileged Access Management (PAM)',
+          'Customer Identity and Access Management (CIAM)',
+          'Workforce Identity',
+          'Non-Human Identity (NHI) governance',
+          'AI agent identity governance',
+          'SAP identity integration',
+        ],
         contactPoint: {
           '@type': 'ContactPoint',
           email: site.email,
