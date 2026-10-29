@@ -32,6 +32,8 @@ export function Analytics() {
         disableAjaxTracking: true,
         disableFetchTracking: true,
         disableExceptionTracking: true,
+        // No remote SDK config from js.monitor.azure.com (blocked by our CSP anyway)
+        extensionConfig: { AppInsightsCfgSyncPlugin: { syncMode: 0, blkCdnCfg: true } },
       },
     });
     appInsights.loadAppInsights();
